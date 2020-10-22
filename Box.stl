@@ -1,0 +1,86 @@
+solid Cheetah3Dfile
+ facet normal 0.6801 -0.4094 -0.6082
+   outer loop
+     vertex 71.0301 -42.3444 25.7233
+     vertex -2.2760 -81.1606 -30.1293
+     vertex -3.0177 1.4073 -86.5384
+   endloop
+ endfacet
+ facet normal 0.6801 -0.4094 -0.6082
+   outer loop
+     vertex -3.0177 1.4073 -86.5384
+     vertex 70.2883 40.2235 -30.6858
+     vertex 71.0301 -42.3444 25.7233
+   endloop
+ endfacet
+ facet normal -0.6801 0.4094 0.6082
+   outer loop
+     vertex -70.2883 -40.2235 30.6858
+     vertex 3.0177 -1.4073 86.5384
+     vertex 2.2760 81.1606 30.1293
+   endloop
+ endfacet
+ facet normal -0.6801 0.4094 0.6082
+   outer loop
+     vertex 2.2760 81.1606 30.1293
+     vertex -71.0301 42.3444 -25.7233
+     vertex -70.2883 -40.2235 30.6858
+   endloop
+ endfacet
+ facet normal -0.7331 -0.3882 -0.5585
+   outer loop
+     vertex -2.2760 -81.1606 -30.1293
+     vertex -70.2883 -40.2235 30.6858
+     vertex -71.0301 42.3444 -25.7233
+   endloop
+ endfacet
+ facet normal -0.7331 -0.3882 -0.5585
+   outer loop
+     vertex -71.0301 42.3444 -25.7233
+     vertex -3.0177 1.4073 -86.5384
+     vertex -2.2760 -81.1606 -30.1293
+   endloop
+ endfacet
+ facet normal 0.7331 0.3882 0.5585
+   outer loop
+     vertex 3.0177 -1.4073 86.5384
+     vertex 71.0301 -42.3444 25.7233
+     vertex 70.2883 40.2235 -30.6858
+   endloop
+ endfacet
+ facet normal 0.7331 0.3882 0.5585
+   outer loop
+     vertex 70.2883 40.2235 -30.6858
+     vertex 2.2760 81.1606 30.1293
+     vertex 3.0177 -1.4073 86.5384
+   endloop
+ endfacet
+ facet normal 0.0074 -0.8257 0.5641
+   outer loop
+     vertex 3.0177 -1.4073 86.5384
+     vertex -70.2883 -40.2235 30.6858
+     vertex -2.2760 -81.1606 -30.1293
+   endloop
+ endfacet
+ facet normal 0.0074 -0.8257 0.5641
+   outer loop
+     vertex -2.2760 -81.1606 -30.1293
+     vertex 71.0301 -42.3444 25.7233
+     vertex 3.0177 -1.4073 86.5384
+   endloop
+ endfacet
+ facet normal -0.0074 0.8257 -0.5641
+   outer loop
+     vertex 70.2883 40.2235 -30.6858
+     vertex -3.0177 1.4073 -86.5384
+     vertex -71.0301 42.3444 -25.7233
+   endloop
+ endfacet
+ facet normal -0.0074 0.8257 -0.5641
+   outer loop
+     vertex -71.0301 42.3444 -25.7233
+     vertex 2.2760 81.1606 30.1293
+     vertex 70.2883 40.2235 -30.6858
+   endloop
+ endfacet
+endsolid
