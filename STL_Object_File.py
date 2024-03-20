@@ -14,7 +14,7 @@ class STL_Object:
             except Exception as excpt:
                 print ("Can't open file: {0}.\n{1}".format(file_name,excpt))
         num_faces:int = len(self.mesh)
-        self.face_list: np.ndarray = np.ones((num_faces,3,4),dtype=np.float)
+        self.face_list: np.ndarray = np.ones((num_faces,3,4),dtype=float)
         self.face_list[:,0,0:3] = self.mesh[:,0:3]
         self.face_list[:,1,0:3] = self.mesh[:,3:6]
         self.face_list[:,2,0:3] = self.mesh[:,6:9]
@@ -60,7 +60,7 @@ class STL_Object:
         """
         # set A to the Identity matrix, if you haven't been given another one explicitly.
         if A is None:
-            A: np.ndarray = np.identity(4,dtype=np.float)
+            A: np.ndarray = np.identity(4,dtype=float)
 
         # faces is an N x 3 x 4 matrix built from the imported mesh.
         faces: np.ndarray = self.apply_transform(A)
@@ -84,7 +84,7 @@ class STL_Object:
         :return: an N x 3 array of (x,y,z). This is not a normalized vector; it does not necessarily have a length of 1.
         """
         if transform is None:
-            transform = np.eye(4, dtype=np.float)
+            transform = np.eye(4, dtype=float)
 
         faces: np.ndarray = self.apply_transform(transform)
 
@@ -126,7 +126,7 @@ class STL_Object:
         :return: an N x 3 array of (x,y,z) points.
         """
         if transform is None:
-            transform: np.ndarray = np.eye(4, dtype=np.float)
+            transform: np.ndarray = np.eye(4, dtype=float)
 
         faces: np.ndarray = self.apply_transform(transform)
         #----------------------------------------------------------------------------
