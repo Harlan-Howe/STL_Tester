@@ -7,7 +7,7 @@ class STL_Visualizer:
 
     def __init__(self, filename):
         self.object: STL_Object = STL_Object(filename)
-        self.transform: np.ndarray = np.eye(4,dtype=np.float)
+        self.transform: np.ndarray = np.eye(4,dtype=float)
 
     def display(self):
         screen: np.ndarray = np.ones((400,400),dtype = float)
